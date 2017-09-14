@@ -14,6 +14,8 @@
 		EF57EC4D1F6B061700151508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF57EC4B1F6B061700151508 /* LaunchScreen.storyboard */; };
 		EF57EC581F6B061700151508 /* SpriteKitPlayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57EC571F6B061700151508 /* SpriteKitPlayingTests.swift */; };
 		EF57EC631F6B061700151508 /* SpriteKitPlayingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57EC621F6B061700151508 /* SpriteKitPlayingUITests.swift */; };
+		EF57EC721F6B0D9B00151508 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF57EC711F6B0D9B00151508 /* SpriteKit.framework */; };
+		EF57EC741F6B1CC100151508 /* FieldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57EC731F6B1CC100151508 /* FieldScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF57EC5E1F6B061700151508 /* SpriteKitPlayingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitPlayingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF57EC621F6B061700151508 /* SpriteKitPlayingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitPlayingUITests.swift; sourceTree = "<group>"; };
 		EF57EC641F6B061800151508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF57EC711F6B0D9B00151508 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EF57EC731F6B1CC100151508 /* FieldScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF57EC721F6B0D9B00151508 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				EF57EC561F6B061700151508 /* SpriteKitPlayingTests */,
 				EF57EC611F6B061700151508 /* SpriteKitPlayingUITests */,
 				EF57EC401F6B061700151508 /* Products */,
+				EF57EC701F6B0D9B00151508 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				EF57EC491F6B061700151508 /* Assets.xcassets */,
 				EF57EC4B1F6B061700151508 /* LaunchScreen.storyboard */,
 				EF57EC4E1F6B061700151508 /* Info.plist */,
+				EF57EC731F6B1CC100151508 /* FieldScene.swift */,
 			);
 			path = SpriteKitPlaying;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				EF57EC641F6B061800151508 /* Info.plist */,
 			);
 			path = SpriteKitPlayingUITests;
+			sourceTree = "<group>";
+		};
+		EF57EC701F6B0D9B00151508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF57EC711F6B0D9B00151508 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +279,7 @@
 			files = (
 				EF57EC451F6B061700151508 /* ViewController.swift in Sources */,
 				EF57EC431F6B061700151508 /* AppDelegate.swift in Sources */,
+				EF57EC741F6B1CC100151508 /* FieldScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
